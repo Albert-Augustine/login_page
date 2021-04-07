@@ -1,0 +1,46 @@
+.image {
+	height: 60%;
+	width: 100%;
+  z-index: 1;
+  position: relative;
+}
+.login {
+	position: absolute;
+  left:50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 9;
+}
+.login_head p {
+  font-size: 43px;
+  color: white;
+  font-weight:bold;
+}
+.login_element label {
+  font-size: 17px;
+  color: white;
+  font-weight:bold;
+}
+.login_button span {
+  background-color: gray;
+  padding: 3px;
+  border-radius: 5px;
+}
+.password {
+  margin-left: .3rem;
+}
+.email {
+  margin-left: 2.3rem;
+}
+.phno {
+  margin-left: 2.2rem;
+}
+.check {
+  margin-left: 11rem;
+}
+.emailforgot {
+  margin-left: 5.3rem;
+}
+.phnoforgot {
+  margin-left: 5.2rem;
+}
